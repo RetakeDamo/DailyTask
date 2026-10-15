@@ -1,0 +1,15 @@
+# 构建 / 测试产物
+.build/*
+!.build/shots/
+.build/shots/*.log
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 编辑器
+.vscode/
+.idea/
